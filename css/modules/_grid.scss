@@ -25,6 +25,9 @@
   }
 }
 @media screen and (max-width: 1024px) {
+  [class^="col"] {
+    margin: 50%;
+  }
   @for $i from 1 through 12 {
     .col#{$i}-md {
       width: (100%/ (12 / $i))-3%;
