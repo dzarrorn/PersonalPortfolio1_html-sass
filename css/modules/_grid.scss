@@ -1,0 +1,46 @@
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.jc-between {
+  justify-content: space-between;
+}
+.jc-center {
+  justify-content: center;
+}
+.ai-center {
+  align-items: center;
+}
+[class^="col"] {
+  margin: 1.5%;
+}
+@for $i from 1 through 12 {
+  .col#{$i} {
+    width: (100%/ (12 / $i))-3%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  @for $i from 1 through 12 {
+    .col#{$i}-md {
+      width: (100%/ (12 / $i))-3%;
+    }
+  }
+}
+@media screen and (max-width: 414px) {
+  [class^="col"] {
+    margin: 100%;
+  }
+  @for $i from 1 through 12 {
+    .col#{$i}-xs {
+      width: (100%/ (12 / $i))-3%;
+    }
+  }
+  .col-reverse {
+    flex-direction: column-reverse;
+  }
+}

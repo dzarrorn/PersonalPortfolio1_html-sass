@@ -1,0 +1,14 @@
+@for $i from 1 through 15 {
+  .size#{$i} {
+    font-size: $i * 1em;
+  }
+}
+.lh12 {
+  line-height: 120%;
+}
+.lh18 {
+  line-height: 180%;
+}
+.bold {
+  font-weight: bold;
+}

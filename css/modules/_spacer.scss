@@ -1,0 +1,34 @@
+@for $i from 1 through 15 {
+  .spacetop#{$i} {
+    margin-top: $i * 10px;
+  }
+}
+@for $i from 1 through 15 {
+  .spacer#{$i} {
+    padding: ($i * 10px) 0;
+  }
+}
+@for $i from 1 through 15 {
+  .padding#{$i} {
+    padding-right: ($i * 10px);
+  }
+}
+@for $i from 1 through 15 {
+  .margin#{$i} {
+    margin-right: ($i * 10px);
+  }
+}
+@media screen and (max-width: 1024px) {
+  @for $i from 1 through 15 {
+    .spacetop#{$i}-md {
+      margin-top: $i * 10px;
+    }
+  }
+}
+@media screen and (max-width: 414px) {
+  @for $i from 1 through 15 {
+    .spacetop#{$i}-xs {
+      margin-top: $i * 10px;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.img-responsive {
+  width: 100%;
+}
+
+@for $i from 1 through 10 {
+  .width#{$i} {
+    width: $i * 10px;
+    height: $i * 10px;
+  }
+}
