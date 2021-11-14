@@ -675,8 +675,26 @@ p {
   padding: 0;
 }
 
-.menu li {
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu a li {
   padding: 10px;
+}
+
+.menu a li:hover {
+  background: white;
+}
+
+.menu a:hover {
+  color: #676cdb;
+}
+
+.logo {
+  text-decoration: none;
+  color: white;
 }
 
 .card {
@@ -701,5 +719,10 @@ p {
   background: #676cdb;
   color: white;
   text-decoration: none;
+}
+
+.button:hover {
+  background: white;
+  color: #676cdb;
 }
 /*# sourceMappingURL=style.css.map */

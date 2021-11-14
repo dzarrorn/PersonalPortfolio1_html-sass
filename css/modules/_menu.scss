@@ -3,7 +3,21 @@
   display: flex;
   margin: 0;
   padding: 0;
-  li {
-    padding: 10px;
+  a {
+    text-decoration: none;
+    color: white;
+    li {
+      padding: 10px;
+      &:hover {
+        background: white;
+      }
+    }
+    &:hover {
+      color: rgba(103, 108, 219, 1);
+    }
   }
+}
+.logo {
+  text-decoration: none;
+  color: white;
 }

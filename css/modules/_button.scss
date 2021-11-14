@@ -4,4 +4,8 @@
   background: rgba(103, 108, 219, 1);
   color: white;
   text-decoration: none;
+  &:hover {
+    background: white;
+    color: rgba(103, 108, 219, 1);
+  }
 }
