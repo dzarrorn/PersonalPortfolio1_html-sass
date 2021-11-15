@@ -102,9 +102,6 @@ p {
 }
 
 @media screen and (max-width: 1024px) {
-  [class^="col"] {
-    margin: 50%;
-  }
   .col1-md {
     width: 5.33333%;
   }
