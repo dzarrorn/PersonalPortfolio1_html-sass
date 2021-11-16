@@ -24,16 +24,16 @@
     width: (100%/ (12 / $i))-3%;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and(max-width:1024px) {
   @for $i from 1 through 12 {
     .col#{$i}-md {
       width: (100%/ (12 / $i))-3%;
     }
   }
 }
-@media screen and (max-width: 414px) {
+@media screen and(max-width:414px) {
   [class^="col"] {
-    margin: 100%;
+    width: 100%;
   }
   @for $i from 1 through 12 {
     .col#{$i}-xs {

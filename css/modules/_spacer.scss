@@ -2,8 +2,9 @@
   .spacetop#{$i} {
     margin-top: $i * 10px;
   }
-}
-@for $i from 1 through 15 {
+  .spacebottom#{$i} {
+    margin-bottom: $i * 10px;
+  }
   .spacer#{$i} {
     padding: ($i * 10px) 0;
   }
