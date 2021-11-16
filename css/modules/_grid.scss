@@ -13,9 +13,14 @@
 .jc-center {
   justify-content: center;
 }
-
 .ai-center {
   align-items: center;
+}
+.ta-center {
+  text-align: center;
+}
+.ta-right {
+  text-align: right;
 }
 [class^="col"] {
   margin: 1.5%;
@@ -47,7 +52,19 @@
   .col {
     flex-direction: column;
   }
+  .jc-between-xs {
+    justify-content: space-between;
+  }
   .jc-center-xs {
     justify-content: center;
+  }
+  .ai-center-xs {
+    align-items: center;
+  }
+  .ta-center-xs {
+    text-align: center;
+  }
+  .ta-right-xs {
+    text-align: right;
   }
 }
