@@ -5,20 +5,20 @@
   .spacebottom#{$i} {
     margin-bottom: $i * 10px;
   }
+  .spaceright#{$i} {
+    margin-right: $i * 10px;
+  }
   .spacer#{$i} {
     padding: ($i * 10px) 0;
   }
-}
-@for $i from 1 through 15 {
-  .padding#{$i} {
+  .spacertop#{$i} {
+    padding-top: $i * 10px;
+  }
+  .paddingright#{$i} {
     padding-right: ($i * 10px);
   }
 }
-@for $i from 1 through 15 {
-  .margin#{$i} {
-    margin-right: ($i * 10px);
-  }
-}
+
 @media screen and (max-width: 1024px) {
   @for $i from 1 through 15 {
     .spacetop#{$i}-md {
