@@ -13,6 +13,7 @@
 .jc-center {
   justify-content: center;
 }
+
 .ai-center {
   align-items: center;
 }
@@ -42,5 +43,8 @@
   }
   .col-reverse {
     flex-direction: column-reverse;
+  }
+  .jc-center-xs {
+    justify-content: center;
   }
 }

@@ -195,6 +195,11 @@ h5 {
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
+  .jc-center-xs {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .size1 {
