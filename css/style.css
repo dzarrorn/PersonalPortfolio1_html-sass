@@ -195,6 +195,12 @@ h5 {
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
+  .col {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .jc-center-xs {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
