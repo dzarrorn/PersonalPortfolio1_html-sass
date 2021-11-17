@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
-  color: #f3f3f3;
+  color: white;
   font-size: 10px;
 }
 
@@ -1794,7 +1794,7 @@ h5 {
 }
 
 .white {
-  color: #f3f3f3;
+  color: white;
 }
 
 @media screen and (max-width: 1024px) {
@@ -1821,17 +1821,13 @@ h5 {
 .menu a {
   text-decoration: none;
   color: white;
-}
-
-.menu a li {
   padding: 10px;
-}
-
-.menu a li:hover {
-  background: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .menu a:hover {
+  background: white;
   color: #676cdb;
 }
 
@@ -1856,12 +1852,18 @@ h5 {
   background-color: white;
 }
 
+.a {
+  text-decoration: none;
+}
+
 .button {
   padding: 0.5em 2em;
   margin: 0;
   background: #676cdb;
   color: white;
   text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .button:hover {
