@@ -30,6 +30,11 @@
     width: (100%/ (12 / $i))-3%;
   }
 }
+@for $i from 1 through 12 {
+  .nmcol#{$i} {
+    width: (100%/ (12 / $i));
+  }
+}
 @media screen and(max-width:1024px) {
   @for $i from 1 through 12 {
     .col#{$i}-md {

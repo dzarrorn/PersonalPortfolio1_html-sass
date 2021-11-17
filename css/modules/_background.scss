@@ -1,0 +1,77 @@
+$lightblue: rgba(34, 42, 54, 0.95);
+$darkblue: rgba(34, 42, 54, 1);
+$gray: #c4c4c4;
+$purple: rgba(103, 108, 219, 1);
+.bg-lightblue {
+  background: $lightblue;
+}
+.bg-darkblue {
+  background: $darkblue;
+}
+.bg-image {
+  background: url(/img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-gray {
+  background: $gray;
+}
+.purple {
+  color: $purple;
+}
+.gray {
+  color: $gray;
+}
+.white {
+  color: white;
+}
+@media screen and(max-width:1024px) {
+  .bg-lightblue-md {
+    background: $lightblue;
+  }
+  .bg-darkblue-md {
+    background: $darkblue;
+  }
+  .bg-image-md {
+    background: url(/img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg-gray-md {
+    background: $gray;
+  }
+  .purple-md {
+    color: $purple;
+  }
+  .gray-md {
+    color: $gray;
+  }
+  .white-md {
+    color: white;
+  }
+}
+@media screen and(max-width:414px) {
+  .bg-lightblue-xs {
+    background: $lightblue;
+  }
+  .bg-darkblue-xs {
+    background: $darkblue;
+  }
+  .bg-image-xs {
+    background: url(/img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg-gray-xs {
+    background: $gray;
+  }
+  .purple-xs {
+    color: $purple;
+  }
+  .gray-xs {
+    color: $gray;
+  }
+  .white-xs {
+    color: white;
+  }
+}
