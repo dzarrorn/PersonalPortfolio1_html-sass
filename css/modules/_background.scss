@@ -8,8 +8,11 @@ $purple: rgba(103, 108, 219, 1);
 .bg-darkblue {
   background: $darkblue;
 }
+.bg-black {
+  background: rgb(31, 30, 30);
+}
 .bg-image {
-  background: url(/img/background.png);
+  background-image: url(/img/background.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -23,7 +26,7 @@ $purple: rgba(103, 108, 219, 1);
   color: $gray;
 }
 .white {
-  color: white;
+  color: rgb(243, 243, 243);
 }
 @media screen and(max-width:1024px) {
   .bg-lightblue-md {
