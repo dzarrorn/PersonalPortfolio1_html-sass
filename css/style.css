@@ -1793,51 +1793,11 @@ h5 {
   .bg-lightblue-md {
     background: rgba(34, 42, 54, 0.95);
   }
-  .bg-darkblue-md {
-    background: #222a36;
-  }
-  .bg-image-md {
-    background: url(/img/background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .bg-gray-md {
-    background: #c4c4c4;
-  }
-  .purple-md {
-    color: #676cdb;
-  }
-  .gray-md {
-    color: #c4c4c4;
-  }
-  .white-md {
-    color: white;
-  }
 }
 
 @media screen and (max-width: 414px) {
   .bg-lightblue-xs {
     background: rgba(34, 42, 54, 0.95);
-  }
-  .bg-darkblue-xs {
-    background: #222a36;
-  }
-  .bg-image-xs {
-    background: url(/img/background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .bg-gray-xs {
-    background: #c4c4c4;
-  }
-  .purple-xs {
-    color: #676cdb;
-  }
-  .gray-xs {
-    color: #c4c4c4;
-  }
-  .white-xs {
-    color: white;
   }
 }
 

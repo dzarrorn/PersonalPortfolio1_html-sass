@@ -29,49 +29,9 @@ $purple: rgba(103, 108, 219, 1);
   .bg-lightblue-md {
     background: $lightblue;
   }
-  .bg-darkblue-md {
-    background: $darkblue;
-  }
-  .bg-image-md {
-    background: url(/img/background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .bg-gray-md {
-    background: $gray;
-  }
-  .purple-md {
-    color: $purple;
-  }
-  .gray-md {
-    color: $gray;
-  }
-  .white-md {
-    color: white;
-  }
 }
 @media screen and(max-width:414px) {
   .bg-lightblue-xs {
     background: $lightblue;
-  }
-  .bg-darkblue-xs {
-    background: $darkblue;
-  }
-  .bg-image-xs {
-    background: url(/img/background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .bg-gray-xs {
-    background: $gray;
-  }
-  .purple-xs {
-    color: $purple;
-  }
-  .gray-xs {
-    color: $gray;
-  }
-  .white-xs {
-    color: white;
   }
 }
