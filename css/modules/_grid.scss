@@ -7,26 +7,31 @@
   display: flex;
   flex-wrap: wrap;
 }
-.jc-between {
-  justify-content: space-between;
+.jc {
+  &-center {
+    justify-content: center;
+  }
+  &-between {
+    justify-content: space-between;
+  }
 }
-.jc-center {
-  justify-content: center;
-}
+
 .ai-center {
   align-items: center;
 }
-.ta-center {
-  text-align: center;
-}
-.ta-right {
-  text-align: right;
+.ta {
+  &-center {
+    text-align: center;
+  }
+  &-right {
+    text-align: right;
+  }
 }
 .flex {
   display: flex;
 }
 [class^="col"] {
-  margin: 1.5%;
+  margin: 0 1.5%;
 }
 @for $i from 1 through 12 {
   .col#{$i} {
@@ -44,6 +49,35 @@
       width: (100%/ (12 / $i))-3%;
     }
   }
+  .col-reverse-md {
+    flex-direction: column-reverse;
+  }
+  .col-md {
+    flex-direction: column;
+  }
+  .jc {
+    &-center-md {
+      justify-content: center;
+    }
+    &-between-md {
+      justify-content: space-between;
+    }
+  }
+
+  .ai-center-md {
+    align-items: center;
+  }
+  .ta {
+    &-center-md {
+      text-align: center;
+    }
+    &-right-md {
+      text-align: right;
+    }
+  }
+  .flex-md {
+    display: flex;
+  }
 }
 @media screen and(max-width:414px) {
   [class^="col"] {
@@ -54,25 +88,34 @@
       width: (100%/ (12 / $i))-3%;
     }
   }
-  .col-reverse {
+  .col-reverse-xs {
     flex-direction: column-reverse;
   }
-  .col {
+  .col-xs {
     flex-direction: column;
   }
-  .jc-between-xs {
-    justify-content: space-between;
+
+  .jc {
+    &-center-xs {
+      justify-content: center;
+    }
+    &-between-xs {
+      justify-content: space-between;
+    }
   }
-  .jc-center-xs {
-    justify-content: center;
-  }
+
   .ai-center-xs {
     align-items: center;
   }
-  .ta-center-xs {
-    text-align: center;
+  .ta {
+    &-center-xs {
+      text-align: center;
+    }
+    &-right-xs {
+      text-align: right;
+    }
   }
-  .ta-right-xs {
-    text-align: right;
+  .flex-xs {
+    display: flex;
   }
 }

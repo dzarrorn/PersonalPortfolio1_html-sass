@@ -49,16 +49,16 @@ h5 {
       flex-wrap: wrap;
 }
 
-.jc-between {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
 .jc-center {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.jc-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .ai-center {
@@ -82,7 +82,7 @@ h5 {
 }
 
 [class^="col"] {
-  margin: 1.5%;
+  margin: 0 1.5%;
 }
 
 .col1 {
@@ -218,6 +218,44 @@ h5 {
   .col12-md {
     width: 97%;
   }
+  .col-reverse-md {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .col-md {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .jc-center-md {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .jc-between-md {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .ai-center-md {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .ta-center-md {
+    text-align: center;
+  }
+  .ta-right-md {
+    text-align: right;
+  }
+  .flex-md {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 @media screen and (max-width: 414px) {
@@ -260,27 +298,27 @@ h5 {
   .col12-xs {
     width: 97%;
   }
-  .col-reverse {
+  .col-reverse-xs {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
-  .col {
+  .col-xs {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .jc-between-xs {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
   .jc-center-xs {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .jc-between-xs {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .ai-center-xs {
     -webkit-box-align: center;
@@ -292,6 +330,11 @@ h5 {
   }
   .ta-right-xs {
     text-align: right;
+  }
+  .flex-xs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
