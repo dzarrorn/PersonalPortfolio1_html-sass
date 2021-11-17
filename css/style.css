@@ -998,6 +998,33 @@ h5 {
 }
 
 @media screen and (max-width: 1024px) {
+  .spacetop0-md {
+    margin-top: 0px;
+  }
+  .spacebottom0-md {
+    margin-bottom: 0px;
+  }
+  .spaceright0-md {
+    margin-right: 0px;
+  }
+  .spaceleft0-md {
+    margin-left: 0px;
+  }
+  .spacer0-md {
+    padding: 0px 0;
+  }
+  .paddingtop0-md {
+    padding-top: 0px;
+  }
+  .paddingbottom0-md {
+    padding-bottom: 0px;
+  }
+  .paddingright0-md {
+    padding-right: 0px;
+  }
+  .paddingleft0-md {
+    padding-left: 0px;
+  }
   .spacetop1-md {
     margin-top: 10px;
   }
@@ -1406,6 +1433,33 @@ h5 {
 }
 
 @media screen and (max-width: 414px) {
+  .spacetop0-xs {
+    margin-top: 0px;
+  }
+  .spacebottom0-xs {
+    margin-bottom: 0px;
+  }
+  .spaceright0-xs {
+    margin-right: 0px;
+  }
+  .spaceleft0-xs {
+    margin-left: 0px;
+  }
+  .spacer0-xs {
+    padding: 0px 0;
+  }
+  .paddingtop0-xs {
+    padding-top: 0px;
+  }
+  .paddingbottom0-xs {
+    padding-bottom: 0px;
+  }
+  .paddingright0-xs {
+    padding-right: 0px;
+  }
+  .paddingleft0-xs {
+    padding-left: 0px;
+  }
   .spacetop1-xs {
     margin-top: 10px;
   }

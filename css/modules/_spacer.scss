@@ -29,7 +29,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-  @for $i from 1 through 15 {
+  @for $i from 0 through 15 {
     .spacetop#{$i}-md {
       margin-top: $i * 10px;
     }
@@ -60,7 +60,7 @@
   }
 }
 @media screen and (max-width: 414px) {
-  @for $i from 1 through 15 {
+  @for $i from 0 through 15 {
     .spacetop#{$i}-xs {
       margin-top: $i * 10px;
     }
