@@ -3,7 +3,19 @@
     font-size: $i * 1em;
   }
 }
-
+.lh14 {
+  line-height: 140%;
+}
 .bold {
   font-weight: bold;
+}
+@media screen and(max-width:414px) {
+  @for $i from 1 through 15 {
+    .size#{$i}-xs {
+      font-size: $i * 1em;
+    }
+  }
+  .lh14-xs {
+    line-height: 140%;
+  }
 }

@@ -75,6 +75,12 @@ h5 {
   text-align: right;
 }
 
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 [class^="col"] {
   margin: 1.5%;
 }
@@ -349,8 +355,63 @@ h5 {
   font-size: 15em;
 }
 
+.lh14 {
+  line-height: 140%;
+}
+
 .bold {
   font-weight: bold;
+}
+
+@media screen and (max-width: 414px) {
+  .size1-xs {
+    font-size: 1em;
+  }
+  .size2-xs {
+    font-size: 2em;
+  }
+  .size3-xs {
+    font-size: 3em;
+  }
+  .size4-xs {
+    font-size: 4em;
+  }
+  .size5-xs {
+    font-size: 5em;
+  }
+  .size6-xs {
+    font-size: 6em;
+  }
+  .size7-xs {
+    font-size: 7em;
+  }
+  .size8-xs {
+    font-size: 8em;
+  }
+  .size9-xs {
+    font-size: 9em;
+  }
+  .size10-xs {
+    font-size: 10em;
+  }
+  .size11-xs {
+    font-size: 11em;
+  }
+  .size12-xs {
+    font-size: 12em;
+  }
+  .size13-xs {
+    font-size: 13em;
+  }
+  .size14-xs {
+    font-size: 14em;
+  }
+  .size15-xs {
+    font-size: 15em;
+  }
+  .lh14-xs {
+    line-height: 140%;
+  }
 }
 
 .spacetop1 {
@@ -1715,51 +1776,81 @@ h5 {
 
 .width1 {
   width: 10px;
+}
+
+.height1 {
   height: 10px;
 }
 
 .width2 {
   width: 20px;
+}
+
+.height2 {
   height: 20px;
 }
 
 .width3 {
   width: 30px;
+}
+
+.height3 {
   height: 30px;
 }
 
 .width4 {
   width: 40px;
+}
+
+.height4 {
   height: 40px;
 }
 
 .width5 {
   width: 50px;
+}
+
+.height5 {
   height: 50px;
 }
 
 .width6 {
   width: 60px;
+}
+
+.height6 {
   height: 60px;
 }
 
 .width7 {
   width: 70px;
+}
+
+.height7 {
   height: 70px;
 }
 
 .width8 {
   width: 80px;
+}
+
+.height8 {
   height: 80px;
 }
 
 .width9 {
   width: 90px;
+}
+
+.height9 {
   height: 90px;
 }
 
 .width10 {
   width: 100px;
+}
+
+.height10 {
   height: 100px;
 }
 
