@@ -448,6 +448,16 @@ h5 {
   font-weight: bold;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
+.hover :hover {
+  opacity: 50%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
 @media screen and (max-width: 414px) {
   .size1-xs {
     font-size: 1em;
@@ -2102,10 +2112,6 @@ h5 {
 .button:hover {
   background: white;
   color: #676cdb;
-}
-
-.arrow :hover {
-  opacity: 50%;
 }
 
 .icon a :hover {

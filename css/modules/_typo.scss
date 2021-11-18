@@ -9,6 +9,15 @@
 .bold {
   font-weight: bold;
 }
+.underline {
+  text-decoration: underline;
+}
+.hover {
+  :hover {
+    opacity: 50%;
+    transition: 0.5s;
+  }
+}
 @media screen and(max-width:414px) {
   @for $i from 1 through 15 {
     .size#{$i}-xs {
