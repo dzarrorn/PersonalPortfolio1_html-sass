@@ -28,11 +28,7 @@ $purple: rgba(103, 108, 219, 1);
 .white {
   color: white;
 }
-.arrow {
-  :hover {
-    opacity: 50%;
-  }
-}
+
 @media screen and(max-width:1024px) {
   .bg-lightblue-md {
     background: $lightblue;

@@ -1,0 +1,13 @@
+.arrow {
+  :hover {
+    opacity: 50%;
+  }
+}
+.icon {
+  a {
+    :hover {
+      opacity: 50%;
+      transition: 0.3s;
+    }
+  }
+}
