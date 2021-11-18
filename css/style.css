@@ -2062,6 +2062,8 @@ h5 {
   padding-bottom: 37px;
   padding-left: 30px;
   color: #222a36;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .card:hover {
