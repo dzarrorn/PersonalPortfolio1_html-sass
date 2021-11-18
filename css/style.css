@@ -5,11 +5,13 @@
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
-  color: white;
+  outline: none;
+  border: none;
 }
 
 body {
   font-size: 10px;
+  color: white;
 }
 
 .font2 {
@@ -2037,13 +2039,19 @@ h5 {
   }
 }
 
+.header {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.75);
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 .menu {
   list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0;
-  padding: 0;
 }
 
 .menu a {

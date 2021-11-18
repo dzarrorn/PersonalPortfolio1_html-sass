@@ -1,8 +1,13 @@
+.header {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.75);
+  top: 0;
+  left: 0;
+  right: 0;
+}
 .menu {
   list-style-type: none;
   display: flex;
-  margin: 0;
-  padding: 0;
   a {
     color: white;
     padding: 10px;
