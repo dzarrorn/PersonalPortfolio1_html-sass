@@ -1,13 +1,14 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-}
-
-body {
+  text-decoration: none;
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
   color: white;
+}
+
+body {
   font-size: 10px;
 }
 
@@ -2046,7 +2047,6 @@ h5 {
 }
 
 .menu a {
-  text-decoration: none;
   color: white;
   padding: 10px;
   -webkit-transition: 0.5s;
@@ -2079,10 +2079,6 @@ h5 {
 
 .card:hover img {
   background-color: white;
-}
-
-.a {
-  text-decoration: none;
 }
 
 .button {
