@@ -32,6 +32,9 @@
   &-right {
     text-align: right;
   }
+  &-justify {
+    text-align: justify;
+  }
 }
 .flex {
   display: flex;
@@ -86,6 +89,9 @@
     &-right-md {
       text-align: right;
     }
+    &-justify-md {
+      text-align: justify;
+    }
   }
   .flex-md {
     display: flex;
@@ -131,6 +137,9 @@
     }
     &-right-xs {
       text-align: right;
+    }
+    &-justify-xs {
+      text-align: justify;
     }
   }
   .flex-xs {

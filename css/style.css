@@ -86,6 +86,10 @@ h5 {
   text-align: right;
 }
 
+.ta-justify {
+  text-align: justify;
+}
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -271,6 +275,9 @@ h5 {
   .ta-right-md {
     text-align: right;
   }
+  .ta-justify-md {
+    text-align: justify;
+  }
   .flex-md {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -359,6 +366,9 @@ h5 {
   }
   .ta-right-xs {
     text-align: right;
+  }
+  .ta-justify-xs {
+    text-align: justify;
   }
   .flex-xs {
     display: -webkit-box;
