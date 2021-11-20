@@ -1,92 +1,233 @@
+// @for $i from 1 through 15 {
+//   .spacetop#{$i} {
+//     margin-top: $i * 10px;
+//   }
+//   .spacebottom#{$i} {
+//     margin-bottom: $i * 10px;
+//   }
+//   .spaceright#{$i} {
+//     margin-right: $i * 10px;
+//   }
+//   .spaceleft#{$i} {
+//     margin-left: $i * 10px;
+//   }
+//   .spacer#{$i} {
+//     padding: ($i * 10px) 0;
+//   }
+//   .paddingtop#{$i} {
+//     padding-top: $i * 10px;
+//   }
+//   .paddingbottom#{$i} {
+//     padding-bottom: $i * 10px;
+//   }
+//   .paddingright#{$i} {
+//     padding-right: ($i * 10px);
+//   }
+//   .paddingleft#{$i} {
+//     padding-left: ($i * 10px);
+//   }
+// }
+
+// @media screen and (max-width: 1024px) {
+//   @for $i from 0 through 15 {
+//     .spacetop#{$i}-md {
+//       margin-top: $i * 10px;
+//     }
+//     .spacebottom#{$i}-md {
+//       margin-bottom: $i * 10px;
+//     }
+//     .spaceright#{$i}-md {
+//       margin-right: $i * 10px;
+//     }
+//     .spaceleft#{$i}-md {
+//       margin-left: $i * 10px;
+//     }
+//     .spacer#{$i}-md {
+//       padding: ($i * 10px) 0;
+//     }
+//     .paddingtop#{$i}-md {
+//       padding-top: $i * 10px;
+//     }
+//     .paddingbottom#{$i}-md {
+//       padding-bottom: $i * 10px;
+//     }
+//     .paddingright#{$i}-md {
+//       padding-right: ($i * 10px);
+//     }
+//     .paddingleft#{$i}-md {
+//       padding-left: ($i * 10px);
+//     }
+//   }
+// }
+// @media screen and (max-width: 414px) {
+//   @for $i from 0 through 15 {
+//     .spacetop#{$i}-xs {
+//       margin-top: $i * 10px;
+//     }
+//     .spacebottom#{$i}-xs {
+//       margin-bottom: $i * 10px;
+//     }
+//     .spaceright#{$i}-xs {
+//       margin-right: $i * 10px;
+//     }
+//     .spaceleft#{$i}-xs {
+//       margin-left: $i * 10px;
+//     }
+//     .spacer#{$i}-xs {
+//       padding: ($i * 10px) 0;
+//     }
+//     .paddingtop#{$i}-xs {
+//       padding-top: $i * 10px;
+//     }
+//     .paddingbottom#{$i}-xs {
+//       padding-bottom: $i * 10px;
+//     }
+//     .paddingright#{$i}-xs {
+//       padding-right: ($i * 10px);
+//     }
+//     .paddingleft#{$i}-xs {
+//       padding-left: ($i * 10px);
+//     }
+//   }
+// }
 @for $i from 1 through 15 {
   .spacetop#{$i} {
-    margin-top: $i * 10px;
+    margin-top: $i * 1em;
   }
+
   .spacebottom#{$i} {
-    margin-bottom: $i * 10px;
+    margin-bottom: $i * 1em;
   }
+
   .spaceright#{$i} {
-    margin-right: $i * 10px;
+    margin-right: $i * 1em;
   }
+
   .spaceleft#{$i} {
-    margin-left: $i * 10px;
+    margin-left: $i * 1em;
   }
+
   .spacer#{$i} {
-    padding: ($i * 10px) 0;
+    padding: ($i * 1em) 0;
   }
+
+  .padding#{$i} {
+    padding: $i * 1em;
+  }
+
+  .paddingside#{$i} {
+    padding: 0 ($i * 1em);
+  }
+
   .paddingtop#{$i} {
-    padding-top: $i * 10px;
+    padding-top: $i * 1em;
   }
+
   .paddingbottom#{$i} {
-    padding-bottom: $i * 10px;
+    padding-bottom: $i * 1em;
   }
+
   .paddingright#{$i} {
-    padding-right: ($i * 10px);
+    padding-right: ($i * 1em);
   }
+
   .paddingleft#{$i} {
-    padding-left: ($i * 10px);
+    padding-left: ($i * 1em);
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 102em) {
   @for $i from 0 through 15 {
     .spacetop#{$i}-md {
-      margin-top: $i * 10px;
+      margin-top: $i * 1em;
     }
+
     .spacebottom#{$i}-md {
-      margin-bottom: $i * 10px;
+      margin-bottom: $i * 1em;
     }
+
     .spaceright#{$i}-md {
-      margin-right: $i * 10px;
+      margin-right: $i * 1em;
     }
+
     .spaceleft#{$i}-md {
-      margin-left: $i * 10px;
+      margin-left: $i * 1em;
     }
+
     .spacer#{$i}-md {
-      padding: ($i * 10px) 0;
+      padding: ($i * 1em) 0;
     }
+
+    .padding#{$i}-md {
+      padding: $i * 1em;
+    }
+
+    .paddingside#{$i}-md {
+      padding: 0 ($i * 1em);
+    }
+
     .paddingtop#{$i}-md {
-      padding-top: $i * 10px;
+      padding-top: $i * 1em;
     }
+
     .paddingbottom#{$i}-md {
-      padding-bottom: $i * 10px;
+      padding-bottom: $i * 1em;
     }
+
     .paddingright#{$i}-md {
-      padding-right: ($i * 10px);
+      padding-right: ($i * 1em);
     }
+
     .paddingleft#{$i}-md {
-      padding-left: ($i * 10px);
+      padding-left: ($i * 1em);
     }
   }
 }
-@media screen and (max-width: 414px) {
+
+@media screen and (max-width: 41em) {
   @for $i from 0 through 15 {
     .spacetop#{$i}-xs {
-      margin-top: $i * 10px;
+      margin-top: $i * 1em;
     }
+
     .spacebottom#{$i}-xs {
-      margin-bottom: $i * 10px;
+      margin-bottom: $i * 1em;
     }
+
     .spaceright#{$i}-xs {
-      margin-right: $i * 10px;
+      margin-right: $i * 1em;
     }
+
     .spaceleft#{$i}-xs {
-      margin-left: $i * 10px;
+      margin-left: $i * 1em;
     }
+
     .spacer#{$i}-xs {
-      padding: ($i * 10px) 0;
+      padding: ($i * 1em) 0;
     }
+
+    .padding#{$i}-xs {
+      padding: $i * 1em;
+    }
+
+    .paddingside#{$i}-xs {
+      padding: 0 ($i * 1em);
+    }
+
     .paddingtop#{$i}-xs {
-      padding-top: $i * 10px;
+      padding-top: $i * 1em;
     }
+
     .paddingbottom#{$i}-xs {
-      padding-bottom: $i * 10px;
+      padding-bottom: $i * 1em;
     }
+
     .paddingright#{$i}-xs {
-      padding-right: ($i * 10px);
+      padding-right: ($i * 1em);
     }
+
     .paddingleft#{$i}-xs {
-      padding-left: ($i * 10px);
+      padding-left: ($i * 1em);
     }
   }
 }

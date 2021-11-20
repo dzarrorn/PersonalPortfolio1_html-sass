@@ -2,29 +2,38 @@ $lightblue: rgba(34, 42, 54, 0.95);
 $darkblue: rgba(34, 42, 54, 1);
 $gray: #c4c4c4;
 $purple: rgba(103, 108, 219, 1);
+
 .bg-lightblue {
   background: $lightblue;
 }
+
 .bg-darkblue {
   background: $darkblue;
 }
+
 .bg-black {
   background: rgb(31, 30, 30);
 }
+
 .bg-image {
   background-image: url(/img/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
+
 .bg-gray {
   background: $gray;
 }
+
 .purple {
   color: $purple;
 }
+
 .gray {
   color: $gray;
 }
+
 .white {
   color: white;
 }
@@ -34,6 +43,7 @@ $purple: rgba(103, 108, 219, 1);
     background: $lightblue;
   }
 }
+
 @media screen and(max-width:414px) {
   .bg-lightblue-xs {
     background: $lightblue;
