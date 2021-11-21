@@ -2429,6 +2429,10 @@ h5 {
   color: white;
 }
 
+.darkblue {
+  color: #222a36;
+}
+
 @media screen and (max-width: 1024px) {
   .bg-lightblue-md {
     background: rgba(34, 42, 54, 0.95);
@@ -2501,7 +2505,6 @@ h5 {
   padding-top: 135px;
   padding-bottom: 37px;
   padding-left: 30px;
-  color: #222a36;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -2509,6 +2512,8 @@ h5 {
 .card:hover {
   background: #676cdb;
   color: white;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .card:hover img {

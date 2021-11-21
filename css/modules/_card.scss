@@ -2,11 +2,13 @@
   padding-top: 135px;
   padding-bottom: 37px;
   padding-left: 30px;
-  color: rgba(34, 42, 54, 1);
   transition: 0.5s;
+
   &:hover {
     background: rgba(103, 108, 219, 1);
     color: white;
+    transform: scale(1.1);
+
     img {
       background-color: white;
     }
