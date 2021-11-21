@@ -5,8 +5,11 @@
   padding: 0;
   outline: none;
   border: none;
+  // text-transform: capitalize;
 }
-body {
+
+html {
+  scroll-behavior: smooth;
   font-size: 10px;
   color: white;
   font-family: "Poppins", sans-serif;
@@ -21,12 +24,14 @@ body {
     font-size: 50%;
   }
 }
+
 h1,
 h2,
 h3 {
   margin: 0;
   line-height: 120%;
 }
+
 p,
 h4,
 h5 {

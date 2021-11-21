@@ -8,7 +8,8 @@
   border: none;
 }
 
-body {
+html {
+  scroll-behavior: smooth;
   font-size: 10px;
   color: white;
   font-family: "Poppins", sans-serif;
@@ -2312,6 +2313,9 @@ h5 {
 
 .img-responsive {
   width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .width1 {
@@ -2449,21 +2453,14 @@ h5 {
   right: 0;
 }
 
-.menu {
-  list-style-type: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.menu a {
+.navbar a {
   color: white;
   padding: 10px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-.menu a:hover {
+.navbar a:hover {
   background: white;
   color: #676cdb;
 }
@@ -2491,7 +2488,7 @@ h5 {
   background-color: white;
 }
 
-.button {
+.btn {
   padding: 0.5em 2em;
   margin: 0;
   background: #676cdb;
@@ -2501,14 +2498,37 @@ h5 {
   transition: 0.5s;
 }
 
-.button:hover {
+.btn:hover {
   background: white;
   color: #676cdb;
+}
+
+#menu-btn {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  #menu-btn {
+    display: inline-block;
+  }
 }
 
 .icon a :hover {
   opacity: 50%;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+}
+
+.shadow {
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.border {
+  border: 0.1rem solid rgba(0, 0, 0, 0.3);
+}
+
+.bor-top {
+  border-top: 0.1rem solid rgba(0, 0, 0, 0.3);
 }
 /*# sourceMappingURL=style.css.map */
