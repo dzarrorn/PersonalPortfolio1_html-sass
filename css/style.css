@@ -6,6 +6,8 @@
   padding: 0;
   outline: none;
   border: none;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
 }
 
 html {
@@ -2319,83 +2321,83 @@ h5 {
 }
 
 .width1 {
-  width: 10px;
+  width: 1em;
 }
 
 .height1 {
-  height: 10px;
+  height: 1em;
 }
 
 .width2 {
-  width: 20px;
+  width: 2em;
 }
 
 .height2 {
-  height: 20px;
+  height: 2em;
 }
 
 .width3 {
-  width: 30px;
+  width: 3em;
 }
 
 .height3 {
-  height: 30px;
+  height: 3em;
 }
 
 .width4 {
-  width: 40px;
+  width: 4em;
 }
 
 .height4 {
-  height: 40px;
+  height: 4em;
 }
 
 .width5 {
-  width: 50px;
+  width: 5em;
 }
 
 .height5 {
-  height: 50px;
+  height: 5em;
 }
 
 .width6 {
-  width: 60px;
+  width: 6em;
 }
 
 .height6 {
-  height: 60px;
+  height: 6em;
 }
 
 .width7 {
-  width: 70px;
+  width: 7em;
 }
 
 .height7 {
-  height: 70px;
+  height: 7em;
 }
 
 .width8 {
-  width: 80px;
+  width: 8em;
 }
 
 .height8 {
-  height: 80px;
+  height: 8em;
 }
 
 .width9 {
-  width: 90px;
+  width: 9em;
 }
 
 .height9 {
-  height: 90px;
+  height: 9em;
 }
 
 .width10 {
-  width: 100px;
+  width: 10em;
 }
 
 .height10 {
-  height: 100px;
+  height: 10em;
 }
 
 .bg-lightblue {
@@ -2470,6 +2472,37 @@ h5 {
   color: white;
 }
 
+#burger {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  #burger {
+    display: inline-block;
+  }
+  .contact {
+    display: none;
+  }
+  .navbar {
+    position: absolute;
+    top: 100%;
+    bottom: 20;
+    right: 0;
+    left: 50%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    background: rgba(0, 0, 0, 0.75);
+  }
+  .active {
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+  }
+  a {
+    display: block;
+    text-align: right;
+  }
+}
+
 .card {
   padding-top: 135px;
   padding-bottom: 37px;
@@ -2501,16 +2534,6 @@ h5 {
 .btn:hover {
   background: white;
   color: #676cdb;
-}
-
-#menu-btn {
-  display: none;
-}
-
-@media (max-width: 768px) {
-  #menu-btn {
-    display: inline-block;
-  }
 }
 
 .icon a :hover {

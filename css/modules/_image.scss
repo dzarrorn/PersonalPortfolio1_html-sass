@@ -6,10 +6,10 @@
 
 @for $i from 1 through 10 {
   .width#{$i} {
-    width: $i * 10px;
+    width: $i * 1em;
   }
 
   .height#{$i} {
-    height: $i * 10px;
+    height: $i * 1em;
   }
 }

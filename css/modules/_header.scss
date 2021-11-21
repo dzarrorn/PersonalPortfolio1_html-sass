@@ -24,13 +24,38 @@
   color: rgb(255, 255, 255);
 }
 
-// #menu-btn {
-//   display: none;
-// }
+#burger {
+  display: none;
+}
 
-// @media(max-width:768px) {
-//   #menu-btn {
-//     display: inline-block;
-//   }
+@media(max-width:768px) {
 
-// }
+  #burger {
+    display: inline-block;
+  }
+
+  .contact {
+    display: none;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 100%;
+    bottom: 20;
+
+    right: 0;
+    left: 50%;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    background: rgba(0, 0, 0, 0.75);
+
+  }
+
+  &.active {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+  }
+
+  a {
+    display: block;
+    text-align: right;
+  }
+}
