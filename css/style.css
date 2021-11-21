@@ -21,12 +21,6 @@ html {
   font-family: "Playfair Display", serif;
 }
 
-@media screen and (max-width: 414px) {
-  body {
-    font-size: 50%;
-  }
-}
-
 h1,
 h2,
 h3 {
@@ -2488,7 +2482,7 @@ h5 {
     top: 100%;
     bottom: 20;
     right: 0;
-    left: 50%;
+    left: 0;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
             clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     background: rgba(0, 0, 0, 0.75);
