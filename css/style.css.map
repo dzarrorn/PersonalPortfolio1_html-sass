@@ -14,8 +14,7 @@
         "modules/_button.scss",
         "modules/_icon.scss",
         "modules/_shadow.scss",
-        "modules/_border.scss",
-        "modules/_form.scss"
+        "modules/_border.scss"
     ],
     "names": [],
     "file": "style.css"
