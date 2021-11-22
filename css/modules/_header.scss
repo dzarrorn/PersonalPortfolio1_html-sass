@@ -50,6 +50,8 @@
 
     a {
       margin-top: 10rem;
+      display: block;
+      text-align: center;
     }
   }
 
@@ -57,9 +59,5 @@
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
   }
 
-  a {
-    display: block;
-    text-align: right;
-
-  }
+  a {}
 }

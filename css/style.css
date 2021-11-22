@@ -2553,14 +2553,12 @@ h5 {
   }
   .navbar a {
     margin-top: 10rem;
+    display: block;
+    text-align: center;
   }
   .active {
     -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
             clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
-  }
-  a {
-    display: block;
-    text-align: right;
   }
 }
 
