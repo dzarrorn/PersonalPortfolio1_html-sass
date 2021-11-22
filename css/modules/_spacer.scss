@@ -91,6 +91,10 @@
 //   }
 // }
 @for $i from 1 through 15 {
+  .space#{$i} {
+    margin: ($i * 1rem) 0;
+  }
+
   .spacetop#{$i} {
     margin-top: $i * 1rem;
   }
