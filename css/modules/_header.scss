@@ -59,5 +59,11 @@
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
   }
 
-  a {}
+
+}
+
+@media(max-width:768px) {
+  .navbar {
+    width: 70%;
+  }
 }

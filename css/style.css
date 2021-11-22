@@ -2562,6 +2562,12 @@ h5 {
   }
 }
 
+@media (max-width: 768px) {
+  .navbar {
+    width: 70%;
+  }
+}
+
 .card {
   padding-top: 135px;
   padding-bottom: 37px;
