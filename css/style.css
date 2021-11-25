@@ -2572,7 +2572,7 @@ h5 {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 414px) {
   .navbar {
     width: 70%;
   }
