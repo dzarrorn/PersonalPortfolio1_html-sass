@@ -1,6 +1,6 @@
 .header {
   position: fixed;
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.5);
   top: 0;
   left: 0;
   right: 0;
@@ -15,14 +15,14 @@
 
     &:hover {
       background: white;
-      color: rgba(103, 108, 219, 1);
+      color: $purple;
     }
   }
 }
 
 .logo {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
 #burger {

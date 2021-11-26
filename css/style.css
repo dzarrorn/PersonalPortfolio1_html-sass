@@ -2511,7 +2511,7 @@ h5 {
 
 .header {
   position: fixed;
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.5);
   top: 0;
   left: 0;
   right: 0;
@@ -2624,11 +2624,11 @@ h5 {
 }
 
 .border {
-  border: 0.1rem solid rgba(0, 0, 0, 0.3);
+  border: .1rem solid white;
 }
 
 .bor-top {
-  border-top: 0.1rem solid rgba(0, 0, 0, 0.3);
+  border-top: .1rem solid white;
 }
 
 .bor-bottom {
